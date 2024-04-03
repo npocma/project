@@ -1,111 +1,190 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <link rel="stylesheet" href="./assets/vendor/css/bootstrap.css">
-    <link rel="stylesheet" href="./assets/main/css/style.css">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="stylesheet" href="./assets/vendor/css/bootstrap.css">
+  <link rel="stylesheet" href="./assets/main/css/style.css">
 </head>
+
 <body>
-    <nav class="navbar navbar-expand-lg bg-dark border-bottom border-body" data-bs-theme="dark">
-        <div class="container-fluid">
-          <a class="navbar-brand" href="#">Navbar</a>
-          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-          </button>
-          <div class="collapse navbar-collapse" id="navbarSupportedContent">
-            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-              <li class="nav-item">
-                <a class="nav-link active" aria-current="page" href="#">Home</a>
+  <nav class="navbar navbar-expand-lg bg-dark border-bottom border-body" data-bs-theme="dark">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="#">Navbar</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+        aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="#">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Link</a>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+              Dropdown
+            </a>
+            <ul class="dropdown-menu">
+              <li><a class="dropdown-item" href="#">Action</a></li>
+              <li><a class="dropdown-item" href="#">Another action</a></li>
+              <li>
+                <hr class="dropdown-divider">
               </li>
-              <li class="nav-item">
-                <a class="nav-link" href="#">Link</a>
-              </li>
-              <li class="nav-item dropdown">
-                <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                  Dropdown
-                </a>
-                <ul class="dropdown-menu">
-                  <li><a class="dropdown-item" href="#">Action</a></li>
-                  <li><a class="dropdown-item" href="#">Another action</a></li>
-                  <li><hr class="dropdown-divider"></li>
-                  <li><a class="dropdown-item" href="#">Something else here</a></li>
-                </ul>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link disabled" aria-disabled="true">Disabled</a>
-              </li>
+              <li><a class="dropdown-item" href="#">Something else here</a></li>
             </ul>
-            <form class="d-flex" role="search">
-              <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
-              <button class="btn btn-outline-success" type="submit">Search</button>
-            </form>
-          </div>
-        </div>
-      </nav>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link disabled" aria-disabled="true">Disabled</a>
+          </li>
+        </ul>
+        <form class="d-flex" role="search">
+          <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+          <button class="btn btn-outline-success" type="submit">Search</button>
+        </form>
+      </div>
+    </div>
+  </nav>
 
-      <br> <br>
-    <a href="#" class="btn btn-primary">Button</a>
-    <a href="#" class="btn btn-secondary">Button</a>
-    <a href="#" class="btn btn-success">Button</a>
-    <a href="#" class="btn btn-danger">Button</a>
-    <a href="#" class="btn btn-warning">Button</a>
-    <a href="#" class="btn btn-info">Button</a>
-    <a href="#" class="btn btn-light">Button</a>
-    <a href="#" class="btn btn-dark">Button</a>
+  <br> <br>
+  <a href="#" class="btn btn-primary">Button</a>
+  <a href="#" class="btn btn-secondary">Button</a>
+  <a href="#" class="btn btn-success">Button</a>
+  <a href="#" class="btn btn-danger">Button</a>
+  <a href="#" class="btn btn-warning">Button</a>
+  <a href="#" class="btn btn-info">Button</a>
+  <a href="#" class="btn btn-light">Button</a>
+  <a href="#" class="btn btn-dark">Button</a>
 
-    <br>
+  <br>
 
-    <div class="accordion" id="accordionExample">
-        <div class="accordion-item">
-          <h2 class="accordion-header">
-            <button class="accordion-button collapsed " type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="false" aria-controls="collapseOne">
-              Accordion Item #1
-            </button>
-          </h2>
-          <div id="collapseOne" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
-            <div class="accordion-body">
-              <strong>This is the first item's accordion body.</strong> It is shown by default, until the collapse plugin adds the appropriate classes that we use to style each element. These classes control the overall appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with custom CSS or overriding our default variables. It's also worth noting that just about any HTML can go within the <code>.accordion-body</code>, though the transition does limit overflow.
-            </div>
-          </div>
-        </div>
-        <div class="accordion-item">
-          <h2 class="accordion-header">
-            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
-              Accordion Item #2
-            </button>
-          </h2>
-          <div id="collapseTwo" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
-            <div class="accordion-body">
-              <strong>This is the second item's accordion body.</strong> It is hidden by default, until the collapse plugin adds the appropriate classes that we use to style each element. These classes control the overall appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with custom CSS or overriding our default variables. It's also worth noting that just about any HTML can go within the <code>.accordion-body</code>, though the transition does limit overflow.
-            </div>
-          </div>
-        </div>
-        <div class="accordion-item">
-          <h2 class="accordion-header">
-            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
-              Accordion Item #3
-            </button>
-          </h2>
-          <div id="collapseThree" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
-            <div class="accordion-body">
-              <strong>This is the third item's accordion body.</strong> It is hidden by default, until the collapse plugin adds the appropriate classes that we use to style each element. These classes control the overall appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with custom CSS or overriding our default variables. It's also worth noting that just about any HTML can go within the <code>.accordion-body</code>, though the transition does limit overflow.
-            </div>
-          </div>
+  <div class="accordion" id="accordionExample">
+    <div class="accordion-item">
+      <h2 class="accordion-header">
+        <button class="accordion-button collapsed " type="button" data-bs-toggle="collapse"
+          data-bs-target="#collapseOne" aria-expanded="false" aria-controls="collapseOne">
+          Accordion Item #1
+        </button>
+      </h2>
+      <div id="collapseOne" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+        <div class="accordion-body">
+          <strong>This is the first item's accordion body.</strong> It is shown by default, until the collapse plugin
+          adds the appropriate classes that we use to style each element. These classes control the overall appearance,
+          as well as the showing and hiding via CSS transitions. You can modify any of this with custom CSS or
+          overriding our default variables. It's also worth noting that just about any HTML can go within the
+          <code>.accordion-body</code>, though the transition does limit overflow.
         </div>
       </div>
-   
-    <br>
-    <br>
-
-   
-
-    <div class="alert alert-primary" role="alert">
-      A simple primary alert—check it out!
     </div>
-    <div id="liveAlertPlaceholder"></div>
-    <button type="button" class="btn btn-primary" id="liveAlertBtn">Show live alert</button>
+    <div class="accordion-item">
+      <h2 class="accordion-header">
+        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo"
+          aria-expanded="false" aria-controls="collapseTwo">
+          Accordion Item #2
+        </button>
+      </h2>
+      <div id="collapseTwo" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+        <div class="accordion-body">
+          <strong>This is the second item's accordion body.</strong> It is hidden by default, until the collapse plugin
+          adds the appropriate classes that we use to style each element. These classes control the overall appearance,
+          as well as the showing and hiding via CSS transitions. You can modify any of this with custom CSS or
+          overriding our default variables. It's also worth noting that just about any HTML can go within the
+          <code>.accordion-body</code>, though the transition does limit overflow.
+        </div>
+      </div>
+    </div>
+    <div class="accordion-item">
+      <h2 class="accordion-header">
+        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+          data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+          Accordion Item #3
+        </button>
+      </h2>
+      <div id="collapseThree" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+        <div class="accordion-body">
+          <strong>This is the third item's accordion body.</strong> It is hidden by default, until the collapse plugin
+          adds the appropriate classes that we use to style each element. These classes control the overall appearance,
+          as well as the showing and hiding via CSS transitions. You can modify any of this with custom CSS or
+          overriding our default variables. It's also worth noting that just about any HTML can go within the
+          <code>.accordion-body</code>, though the transition does limit overflow.
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <br>
+  <br>
+
+
+
+  <div class="alert alert-primary" role="alert">
+    A simple primary alert—check it out!
+  </div>
+  <div id="liveAlertPlaceholder"></div>
+  <button type="button" class="btn btn-primary" id="liveAlertBtn">Show live alert</button>
+
+  <button type="button" class="btn btn-primary position-relative">
+    Inbox
+    <span class="position-absolute top-0 start-100 translate-middle badge rounded-pill bg-danger">
+      99+
+      <span class="visually-hidden">unread messages</span>
+    </span>
+  </button>
+
+  <div class="btn-group" role="group" aria-label="Basic outlined example">
+    <button type="button" class="btn btn-outline-primary">Left</button>
+    <button type="button" class="btn btn-outline-primary">Middle</button>
+    <button type="button" class="btn btn-outline-primary">Right</button>
+  </div>
+
+  <p class="border border-danger m-5 p-5">Lorem ipsum dolor sit amet consectetur adipisicing elit. Facere provident esse
+    reiciendis voluptatum consequuntur
+    voluptas itaque, asperiores ratione ipsa dignissimos, facilis dolores culpa labore dolor? Eum sit dolorem delectus
+    voluptatibus minima temporibus ea, hic nihil sunt necessitatibus asperiores pariatur quae dicta molestias eaque
+    culpa nisi sapiente a ipsum debitis et.
+  </p>
+
+
+
+  <div class="d-flex">
+    <div class="card m-5" style="width: 18rem;">
+      <img
+        src="data:image/jpeg;base64,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"
+        class="card-img-top" alt="...">
+      <div class="card-body text-center ">
+        <h5 class="card-title">Card title</h5>
+        <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's
+          content.</p>
+        <a href="#" class="btn btn-primary">Go somewhere</a>
+      </div>
+    </div>
+    <div class="card m-5" style="width: 18rem;">
+      <img
+        src="data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD/2wCEAAkGBw8NDQ8NDRAPDQ0NDQ0NDQ0NDw8NDQ0NFREWFhURFRUYHSggGBolHRUVITEhJSkrLi4uFx8zRDg4NygtLisBCgoKDg0OFRAQFysdFR0rLSstLS0tLS0tKystLS0rKy0tKy0tLS0tKy0tLSsrLSsrKy0tLS0tLS0rNystLSstK//AABEIALcBEwMBIgACEQEDEQH/xAAcAAADAAMBAQEAAAAAAAAAAAACAwQAAQUGBwj/xAA6EAADAAECBAUCAwUHBAMAAAAAAQIDBBEFEhMhBjFBUWGBkTJxoSJCUrHwFGJywdHh8TOSoqMHFiP/xAAaAQADAQEBAQAAAAAAAAAAAAAAAQIDBAYF/8QAIhEBAAICAgICAwEAAAAAAAAAAAERAhIDEyExQVEyYXEE/9oADAMBAAIRAxEAPwDxRtIJQMUHoXnLLUhqRikNQBWUpDUjVAycYEQoDUD5xDFjAk6xhLGUrGGsYBMsYSxlSxhLGBpVjCWMrWI30QFJOmb6ZX0TfRAVKPpmdMt6JnRCz1lF0zXTLXhNPEAqUPTNPGWvEC8QDyieMF4yx4wXjA7RvGA8Za4AeMDROAXBY8YDxiNI4AcldQLcAaZyA5KXADkRxKZyC0UuRbkFE7GDOU0IKVIyYGTA2YNHMVMDJxjpxjJgQKnGMnGNmBkwBkrGMWMdOMbOMLOk84xk4iicY2cYrOMU04hiwlM4w1jFatUqxBrEVLGEsYrVqkWI30izpm+mFikfSNdI5+u8S4cGW8TnmrG3Ncz27k//ANuxP9yfu/8AUxnnxiabx/mymLdfpGniE8J4xi1dVEJq5nn2fdOd0t/u0dJ4zXHKJi4ZZYTjNSgeIF4i94wHjHaKQPEA8Re8YusY7FIHjAeMvrGKqAsUhrGA4LagXUDFIqxgVBZUC6gAiqBdQW1AuoAI3IDkqqBbkSoTcpg7lMA1cyNmTrzwljp4QG0MuvL6ceZGTJ2p4QNnhAbwfVk4swNmTtzwkZPCSeyFRxZOJMjZk7U8KGTwoXZCo4pcWZGTJ2lwoNcLF2QrrlxlIak7K4X8BLhYuyD65cdIJI7C4YEuGC7IHXLjpAZckwt6e3t7s7i4afL+L8b58+RN7bXULbzhJtbd/wAiZ5PpphxXPkvxZocGpt5IxUszS5skZlj59lsuaXFJ9tu62fY8vg4NkV//AKulHviU3f8A5NHcrino2n9d0BXEZ9P9jGYiZuXVEzjFQ9V4T4fpcGNvTvJWS0upWfbq7L93Zdku/od9o+e6bi7xtUns13T/AND6tpdA7xY7pctXji3P8LcptG2OcRFObk45mbclyBUndfDAXwwrshl1y4DQFSd98LAfCx9kDrl5+pF1B6GuFi64UPsguqXnakXUnoq4ULrhQdkDqyecpC2j0VcJFVwkfZA6snnqkVUnoa4SJrhTDsgdWTz9SKpHfvhQmuFsN4PrycPlMOu+GGD3guvJ62JHxAEND4aOeXRAokdMgy0NlokxTAyZNSMQgxSMUGTsGgDFCDUIxMJCDFKNqUbTNpiNihG+VG9zaEqmuU+ZeO//AI6nJeXXaXUYdLzt5M2LVV09Pzt7upyL8O73ezT7v0PpuTIol3TSmZdU35KUt2z5F4r8QvV5Xu2scNrHj9IXv/ifqxLxfOtdp8mC3DvHlfvgdZI+/Ktxem3uuWsk4V/HlnO5/wDXFP8AQ9Jlyp+Xl87CHU+yDVe36ev8CeDdDkyRmz6/Brrlqp0uHfHHMu/7ava7Xxype+/kfWeU/P8Apsqlrl/0PfeE/GNTc4NVXNitqZuvxYm+y7/w/wAv0HX0zy8voXKC4GsELTRbhAOEOYDHaaJqEA4Q5gMZwRUIVUIpoVQKT1CFXBTQugCWoQmoRVQqgNJcIRcIstCLQWdJXBg7YwYoiMle4+Mle5HFj4s6ZhwRKuclDpyUSTY6LIpcSqnJQyctE82NmiZVZ85aGzmZPNDFQjPnOxizk6oJUKjtQs4azEyYaYqFqFlCWUmTNpio7czxtrXj4ZqanzqYx/Ssky/0bPi2bM99/sfbPEXD/wC2aLPpl2vJjfTb7JZZaqN/jmSPgee6x3WPLNY8kU5uKW1RS85aIy8N+PzCtVubVP8ApEc5zb1G4Wqlivb/AG9x+LUbeT8/ocrro6vhzhmXiGonBil7dnmybfs4ce/4m/fz2Xq/qESUw+58B1dZdFpclP8AavTYapvzb5F3Za8nyR4MaxxGOFtGOJiF7TK2S+yDbLphZ7yfILyfIhsBsKB7yfIDyfIli2FKs+snyLrJ8iKF0woWfWT5FVk+RFMVQUdnVl+RVZBNbib3HR2deQReUVe4i2wobKOq/cwi3Zg9S2XRiHxjMhD4k0mXNGLUYh0YjcyOmSZlcYhnEMnEHMjZRNq1KWIYsQyUMSFYopYgliHJBpBYohYgljHqQuQViiFjNrGPUi9VmnDjvLXlEutl5t+iXy32+oWcQXk5YW9tSvLdvbv7HkPFfBuGcQfNlnNOdJStTpp5baXkq5v2bX5rdejQrV8Sbqs2auan2mVvyx/dlfHq/U52Xjsp93uv1/P+vYxnOZb48deb8vJcS8G1i3eDNlzLvyzemnE/hN9Rr6nIwcGzc22onNgn+KcD1H6KkfR8XGoa/Py8u6K8esx2u+2397b+vcm/01eZ8P8Ahng9tf2nXajJXrirT5NDjfw21T+1I+pcH0mkw4li0SwziXflwua3fu2nu38vueWUYaXlPlul2fb18g5wQnvOy/Lbt9RxnXwzywv5e0cAuDz+j4reNpVXPHtT3f0Z6LT5Zywrjun90/VM0xztllhOJbgBwUuQWi7TSWpFuSqkLqQs6S1IupK6kXUhYpHUiaktqRVSFqpFUirgtqRNSOxqhuBNSX3Ii4Cxqj5DB/KbCxqpljoZPFDpZpLnhRDHyyaWOlkyuFEsbLESxkslR0sYmJTDliB0sYmITGJgRqoLmFJm1QgbucLx1qaxcNzXHnzYZ+jyymdrmI+NcPnWaXNprfLOaHKpLdxXnN7euzSf0FPpWPiYfFNVrqa25vbze36kN2+27Xw123J+OaXUaHPWn1UOMk+T78mWV5ZIr96f+Hs+xJi1a9djDy66h1Z1Tn976srxcQfvXtv7nFWqXwa/tS/42EdPU4eJ122e3ftvs19H6FuLiNV52123T29V9zxK1y/rY2+Kufwt/V7jsqeyrizW+9b7Pbfun9t/U954Az3l0mTJX4az103/ABJTKb+62/OWfMvCHB8/F8q7Vj0uN759Rt28/wDp42/On9l5v0T+06TTxgxRhxSox45URK8lKNMI+WXJMelDoW6NNgtmjKmNgUzGwKYG1TFtm2wKYyapiqZumLpiVAKYqmHTFUwUCmJtjKYi2ACbA3NjDcWPiznxkHxZtMOSJXzQ2bIYsdNkqiVs2NmyKbGTkFSrWzYxURzkGKyaNWrCVkqsNWIKVYSomVhKwNSrN85NznL8T8Uek0WbPP4pUzP+KqUr+YBN404vw7HgrFxCZ1KfdYEubJze6e65H/e3R8G1risuSsEXiwu6eLHddSojftLrbuzq63UXnyO8jdU3u2xU4WY5Zx8OnjwnH25Gz9n+pvavZnY6D90Y8Hyid2jjbP2Z0/D2ow4dTGTV6davCt98VNyt35V7Pb2fYN4V8GnhDcpi4fdPD3iDSarHM6ZzjUpJYNpxuF7KV22/I7POfnzh+bJp7m4blr2PsPhPi71mm56/FFclfnsn/mbY5Rl/XNlhOP8AHoecF2JdguxpNqwHQt2LdjMyrF1YFWLqwMdWKqgasVViMVUKqwayCasYFVibsG7E3Y6FjdmyfmMHRWCMg+MhzYyDZyG8w4ol04yDZyHLnMNnOLU9nUnKNnIcuM46c5M4qjJ05sNWc6cwxZiaVa9ZA1lIJzDFkCjtdOQNZCFZEEsgqO1yyHN8Sab+06PLi91LX5zSa/kNWQ1kvdNe4qO3yHW8OqG90iTpben8j6Jxjh6pN7Hi9dp+RmOfDXmHRhzX4lz+Rez+mxkwl619twupK82glnj3MKltbcL5f/aVYdPzerf0F6e1T7He4dp02jXDinJnnyRCPR8I535Pu/Y+ieHdJOm0/JPbenT/AD2S/wAiHQ6NJJnVxtJbG8YRj6YTnOSx5AHlEdQF5AoHvIA7EvIA8iAHOwKsRWQVWQKOz6sVWQS8ousoUdm1YmrF1lQm8iHRWbdiLsXdoVWQdFZnOYT9Q2MkkZRs5GQTlGzmN3GvnKEshHOYYswBZOVjoyfJz1k3Cm2FF6dWcnyMnIvc5c2/cdNv3JmFxLpzkDWQ5qyfIayMmlW6PVCWU585Rk38io7XLIF1CLqGdcKOxcUyKcN17I+ccS4hLbPX+KtZyaHLS89pX3pI+VZc9UzPkz1imvFhtN/C7Jnhvugetj9vsznqg/ozlt11DpYNWpfZv6ne4VxVbrdnj9n7Mdguk+25tx8leGXJxbeYfatHl3xy/dJjuqcjgmbfSYHXm8UN/nsWPIjomHLCp5AXZK8gDyMVC1TtgvIyWsjFvKFHaqswus5M8rArIFHaisoqqJ6tiqyMdHal0BWQleUW8gULUVkFVlEvIgKyIR2f1TCXqGAESt+wayk02xio3cdKZyjZsjQapoAsVP0GTko56zsOc7GVw6U5GMnIzmzmY2crFSol0VlYazM5yyMbOUmjiV6yMZNv3IFmCWcSodFZPk3znPWc31xUorxHHNpck+/L+jPneTCk/I+g8Ryc2Kl7njNbg2bM+XDaGnFnrNfCBUl6ILqk2bswZs4nda2b3LNNh5muyItNO7R6DQafyOrhwj25efkmPD1uhpLFjXtEr9B/VRBhf7KXwbb+TeYc8LnmQLyo59UwHbCj2dB5ELq/kheSgHlYUNllV8iqpk3VZnVAzXbBdi3lQLzCtVGOwHXwLeYB5STMdfAFMW8oDygZm5gnqGAESsJZDDDVzDWQKcjMMKSYu4ydjDBWdQZLQapGzBKqG1SC50YYApvnM5zDBplrrG1mNmDpNyHLk3RxdbG+5owU+lRPl53VfiEmGHzMvcvqY+odLh/do9PpeyRhh3cH4uH/AEfm6EZuxvrGGGlM4mWuqaeQwwSrA7AdGGCMq2JrIzZgyLeYF5jDAoRLTzAvKYYJVheUF5TDBUdtdUwwwCt//9k="
+        class="card-img-top" alt="...">
+      <div class="card-body text-center ">
+        <h5 class="card-title">Card title</h5>
+        <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's
+          content.</p>
+        <a href="#" class="btn btn-primary">Go somewhere</a>
+      </div>
+    </div>
+  </div>
+
+  <div class="card mx-5">
+    <div class="card-header">
+      Featured
+    </div>
+    <div class="card-body">
+      <h5 class="card-title">Special title treatment</h5>
+      <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
+      <a href="#" class="btn btn-primary">Go somewhere</a>
+    </div>
+  </div>
 
 
 
@@ -120,7 +199,11 @@
 
 
 
-    <script src="./assets/vendor/js/bootstrap.bundle.js"></script>
-    <script src="assets/main/js/main.js"></script>
+
+
+
+  <script src="./assets/vendor/js/bootstrap.bundle.js"></script>
+  <script src="assets/main/js/main.js"></script>
 </body>
+
 </html>
